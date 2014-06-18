@@ -21,6 +21,7 @@
 		1BEB15901951311800AED641 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BEB15721951311800AED641 /* UIKit.framework */; };
 		1BEB15981951311800AED641 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BEB15961951311800AED641 /* InfoPlist.strings */; };
 		1BEB159A1951311800AED641 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB15991951311800AED641 /* Git_TestTests.m */; };
+		1BEB15A51951348E00AED641 /* SAMTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB15A41951348E00AED641 /* SAMTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		1BEB15951951311800AED641 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		1BEB15971951311800AED641 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1BEB15991951311800AED641 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		1BEB15A31951348E00AED641 /* SAMTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMTest.h; sourceTree = "<group>"; };
+		1BEB15A41951348E00AED641 /* SAMTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		1BEB15621951311800AED641 = {
 			isa = PBXGroup;
 			children = (
+				1BEB15A31951348E00AED641 /* SAMTest.h */,
+				1BEB15A41951348E00AED641 /* SAMTest.m */,
 				1BEB15741951311800AED641 /* Git Test */,
 				1BEB15931951311800AED641 /* Git TestTests */,
 				1BEB156D1951311800AED641 /* Frameworks */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BEB157F1951311800AED641 /* SAMAppDelegate.m in Sources */,
+				1BEB15A51951348E00AED641 /* SAMTest.m in Sources */,
 				1BEB15851951311800AED641 /* SAMViewController.m in Sources */,
 				1BEB157B1951311800AED641 /* main.m in Sources */,
 			);
